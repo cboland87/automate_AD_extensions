@@ -1,0 +1,46 @@
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.vs/
+
+# --- Python (if you have any helper scripts) ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- PowerShell / automation artifacts ---
+# (PowerShell scripts themselves should be committed)
+*.clixml
+*.pfx
+*.p12
+*.cer
+*.pem
+*.key
+
+# --- Secrets / config ---
+.env
+.env.*
+*.secret*
+*secrets*
+*token*
+*apikey*
+*.log
+
+# --- Output / reports / exports ---
+output/
+outputs/
+reports/
+export/
+exports/
+logs/
+*.csv
+*.xlsx
+*.pdf
+
+# --- Temporary files ---
+*.tmp
+*.bak
+*.swp
